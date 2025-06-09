@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #edf2f7;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  padding: 1rem 2rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffdd57;
+}
+
+.card {
+  background: white;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #38b2ac;
+  object-fit: cover;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.bar {
+  border-left: 4px solid #3182ce;
+  padding-left: 8px;
+  margin-right: 10px;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #2d3748;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project {
+  margin-bottom: 1.5rem;
+}
+
+.project-btn {
+  background-color: #3182ce;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 0.5rem;
+  transition: background 0.3s;
+}
+
+.project-btn:hover {
+  background-color: #2b6cb0;
+}
+
+a {
+  color: #2b6cb0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
